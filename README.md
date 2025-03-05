@@ -1,25 +1,36 @@
-# # JS Snacks Functions
+# JS Form Biglietto del Treno
 
 ## Info 
 
-Nell'esercizio di oggi, salvato come Progetto N.23, andiamo a creare 5 programmi, di cui uno bonus tramite **Javascript**. L'obiettivo di ogni esercizio è creare ogni programma tramite l'utilizzo delle funzioni.
+Nell'esercizio di oggi, salvato come Progetto N.25, andiamo a creare un programma già fatto, quello del biglietto del treno, ma intregrandolo in HTML, ossia all'interno della pagina web.
 
-### Esercizio 1 - Saluti
+___
+## Obiettivi
 
-Nel primo esercizio bisogna creare un programma che permette di stampare un saluto combinato con un nome inserito.
 
-### Esercizio 2 - Iniziali
+### Milestone 1 
 
-Nel secondo esercizio bisogna creare un programma che, dato un array di nomi, crea un secondo array contenente le iniziali degli elemeni del precedente array di nomi.
+Il primo obiettivo consiste nell'inserimento tramite input dell'utente dei dati come i chilometri e l'età.
+Creare il programma che calcola il prezzo del biglietto e stamparlo in console.
 
-### Esercizio 3 - Filtra Iniziali
+### Milestone 2
 
-Nel terzo esercizio bisogna creare un programma che, dato un array di nomi e una lettera, verifica se quali elementi dell'array iniziano con la lettera data e li inserisce in un nuovo array.
+Il secondo obiettivo consiste nel stampare il risultato del prezzo del biglietto direttamente in pagina, così da permettere all'utente di vedere e valutare il prezzo.
 
-### Esercizio 4 - Conta Vocali
+### Milestone 3
 
-Nel quarto esercizio bisogna creare un programma che, data una parola, riesce a contare quante vocali ci sono all'interno di essa. 
+Il terzo obiettivo riguarda la parte di layout, ossia andare a modificare la pagina tramite CSS. Nel mio caso ho utilizzato l'aiuto di Bootstrap per velocizzare il lavoro.
 
-### Esercizio 5 - Bonus
+______
 
-Il bonus si rifa al primo esercizio, ossia stampare un saluto congiunto a un nome inserito (il nome è inserito manualmente). La differenza è che il programma deve riuscire a stampare un saluto differente a seconda dell'orario attuale. Di mattina stamperà un messaggio, di pomeriggio un altro, e di sera un altro ancora.
+*Per maggiore informazioni sulla consegna vedere il file info.txt all'interno della repository.*
+
+
+Qui di seguito potete vedere il layout creato prima e dopo il calcolo del biglietto.
+
+
+![Model](https://github.com/simoneburrai/js-biglietto-treno-form/blob/main/img/layout-before.png?raw=true)
+
+
+
+![Model](https://github.com/simoneburrai/js-biglietto-treno-form/blob/main/img/layout-after.png?raw=true)
