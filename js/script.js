@@ -14,10 +14,17 @@ infoForm.addEventListener("submit", function(event){
 
     const ticketPrice = totalTicketPrice(kilometers, age);
     const ticketPriceContainer = document.createElement("div");
-    ticketPriceContainer.classList.add("price");
+    ticketPriceContainer.classList.add("price", "btn", "btn-danger");
     ticketPriceContainer.innerHTML = ticketPrice;
     const priceDiv = document.querySelector(".price-container");
     priceDiv.append(ticketPriceContainer);
+
+
+    const formContainer = document.querySelector(".form-container");
+    priceDiv.classList.replace("d-none", "d-flex");
+    console.log( priceDiv.classList);
+    formContainer.classList.add("d-none");
+    console.log(formContainer.classList);
 })
 
 
