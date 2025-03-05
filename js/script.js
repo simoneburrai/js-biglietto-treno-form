@@ -31,4 +31,44 @@
 //     Il prezzo del vostro biglietto è di ${ticketPrice} €`);
 
 
-console.log("ciao");
+const infoForm = document.querySelector("form");
+console.log(infoForm);
+const inputKm = document.getElementById("km");
+console.log(inputKm);
+const inputAge = document.getElementById("age");
+console.log(inputAge);
+
+infoForm.addEventListener("submit", function(event){
+    event.preventDefault();
+
+    const kilometers = parseInt(inputKm.value);
+    console.log("I chilometri inseriti dall'utente sono", kilometers);
+
+    const age = parseInt(inputAge.value);
+    console.log("L'età dell'utente è", age);
+
+    console.log(totalTicketPrice(kilometers, age));
+})
+
+
+
+
+// Functions 
+
+
+function totalTicketPrice (km, age){
+     const priceKm = 0.21;
+     const minorDiscountPercentage = 20;
+     const seniorDiscountPercentage = 40;
+     let ticketPrice = km * priceKm;
+     console.log(ticketPrice);
+     if(age < 18){
+        ticketPrice = ticketPrice - ((ticketPrice * minorDiscountPercentage) / 100);
+     } else if(age >= 65){
+        ticketPrice = ticketPrice - ((ticketPrice * seniorDiscountPercentage) / 100);
+     }
+     ticketPrice = ticketPrice.toFixed(2);
+     return ticketPrice;
+}
+
+
