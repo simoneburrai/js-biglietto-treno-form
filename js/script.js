@@ -29,3 +29,6 @@
 // alert(`I chilometri che dovrete percorrere sono ${kilometers}
 //     La vostra età è di ${age} anni
 //     Il prezzo del vostro biglietto è di ${ticketPrice} €`);
+
+
+console.log("ciao");
